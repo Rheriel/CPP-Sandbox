@@ -46,5 +46,31 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Eclipse settings as this was created from an Eclipse Workspace.
+# Eclipse Ignore 
+
 .metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Code Recommenders
+.recommenders/
