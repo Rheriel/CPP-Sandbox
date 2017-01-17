@@ -31,7 +31,6 @@ void mergeHalves(int arr[], int temp[], int leftStart, int rightEnd){
 	int rightStart = leftEnd + 1;
 	int right = rightStart;
 	int index = leftStart;
-	int size = (rightEnd - leftStart) + 1;
 
 	while (left <= leftEnd && right <= rightEnd){
 		if (arr[left] >= arr[right]){
